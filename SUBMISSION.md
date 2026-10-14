@@ -6,7 +6,7 @@
 **Candidate Name:** Sooraj R Nair  
 **Contact Email:** `soorajrnair2005@gmail.com`  
 **Official Evaluation Score:** **100.0 / 100.0 Points** *(Qualification threshold: 65.0)*  
-**Commit Hash:** `d1c63f8857e223531e7ff1520328f424d84e495c`  
+**Commit Hash:** `10a221aae19e118c7ddba95ba62bdee2332b993d`  
 
 ---
 
@@ -64,7 +64,7 @@ Here is our official submission for the Signalpost Company Research Challenge:
 2. Candidate Name: Sooraj R Nair
 3. Contact Email: soorajrnair2005@gmail.com
 4. Public Repository URL: https://github.com/soorajrnair-code/signalpost
-5. Exact Commit Hash: d1c63f8857e223531e7ff1520328f424d84e495c
+5. Exact Commit Hash: 10a221aae19e118c7ddba95ba62bdee2332b993d
 6. Run Command:
    python run.py --batch {input_file} --output {output_file} --format canonical
 
