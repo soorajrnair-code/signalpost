@@ -1,0 +1,1432 @@
+[
+  {
+    "organisasjonsnummer": "989061593",
+    "status": "available",
+    "last_updated": "2026-10-13T12:01:15.377638+00:00",
+    "data": {
+      "company_details": {
+        "name": "-G- GROUP AS",
+        "organisasjonsnummer": "989061593",
+        "legal_form": {
+          "code": "AS",
+          "name": "Aksjeselskap"
+        },
+        "is_active": true,
+        "is_bankrupt": false,
+        "in_liquidation": false,
+        "registration_date": "2006-01-23",
+        "founding_date": "2005-10-01",
+        "business_address": {
+          "address_lines": [
+            "c/o Gjørva",
+            "Hellerud gårdsvei 5B"
+          ],
+          "postal_code": "0671",
+          "city": "OSLO",
+          "municipality": "OSLO",
+          "municipality_number": "0301",
+          "country": "Norge",
+          "country_code": "NO"
+        },
+        "postal_address": {
+          "address_lines": [],
+          "postal_code": "",
+          "city": "",
+          "municipality": "",
+          "municipality_number": "",
+          "country": "Norge",
+          "country_code": "NO"
+        },
+        "primary_nace": {
+          "beskrivelse": "Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer",
+          "kode": "62.200"
+        },
+        "statutory_purpose": [
+          "Investeringer, eiendom, konsulentvirksomhet og rådgivning innenfor",
+          "finansielle områder samt forretningsutvikling."
+        ],
+        "historical_names": []
+      },
+      "people": {
+        "ceo": {
+          "name": "Geir Inge Gjørva",
+          "role": "Daglig leder",
+          "appointed_date": "2006-01-23"
+        },
+        "chair_of_board": {
+          "name": "Geir Inge Gjørva",
+          "role": "Styrets leder",
+          "role_code": "LEDE"
+        },
+        "board_members": [
+          {
+            "name": "Lene Margrethe Gjørva",
+            "role": "Varamedlem",
+            "role_code": "VARA"
+          }
+        ],
+        "auditor": null
+      },
+      "workforce": {
+        "employee_count": null,
+        "registration_date": null
+      },
+      "financials": {
+        "share_capital": 108000.0,
+        "currency": "NOK",
+        "number_of_shares": 4800,
+        "last_submitted_annual_accounts_year": "2025"
+      },
+      "web_and_contact": {
+        "website_url": null,
+        "phone": null,
+        "contact_emails": [],
+        "social_links": {},
+        "meta_description": ""
+      },
+      "sub_entities": []
+    },
+    "provenance": [
+      {
+        "field": "company_details.name",
+        "value": "-G- GROUP AS",
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989061593",
+        "evidence_snippet": "\"navn\": \"-G- GROUP AS\"",
+        "retrieved_at": "2026-10-13T12:01:15.377638+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.legal_form",
+        "value": {
+          "kode": "AS",
+          "beskrivelse": "Aksjeselskap"
+        },
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989061593",
+        "evidence_snippet": "{\"_links\": {\"self\": {\"href\": \"https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS\"}}, \"beskrivelse\": \"Aksjeselskap\", \"kode\": \"AS\"}",
+        "retrieved_at": "2026-10-13T12:01:15.377638+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.registration_date",
+        "value": "2006-01-23",
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989061593",
+        "evidence_snippet": "\"registreringsdatoEnhetsregisteret\": \"2006-01-23\"",
+        "retrieved_at": "2026-10-13T12:01:15.377638+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.founding_date",
+        "value": "2005-10-01",
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989061593",
+        "evidence_snippet": "\"stiftelsesdato\": \"2005-10-01\"",
+        "retrieved_at": "2026-10-13T12:01:15.377638+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.is_active",
+        "value": true,
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989061593",
+        "evidence_snippet": "\"konkurs\": false, \"underAvvikling\": false",
+        "retrieved_at": "2026-10-13T12:01:15.377638+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.is_bankrupt",
+        "value": false,
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989061593",
+        "evidence_snippet": "\"konkurs\": false",
+        "retrieved_at": "2026-10-13T12:01:15.377638+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.in_liquidation",
+        "value": false,
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989061593",
+        "evidence_snippet": "\"underAvvikling\": false",
+        "retrieved_at": "2026-10-13T12:01:15.377638+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.business_address",
+        "value": {
+          "address_lines": [
+            "c/o Gjørva",
+            "Hellerud gårdsvei 5B"
+          ],
+          "postal_code": "0671",
+          "city": "OSLO",
+          "municipality": "OSLO",
+          "municipality_number": "0301",
+          "country": "Norge",
+          "country_code": "NO"
+        },
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989061593",
+        "evidence_snippet": "{\"adresse\": [\"c/o Gj\\u00f8rva\", \"Hellerud g\\u00e5rdsvei 5B\"], \"kommune\": \"OSLO\", \"kommunenummer\": \"0301\", \"land\": \"Norge\", \"landkode\": \"NO\", \"postnummer\": \"0671\", \"poststed\": \"OSLO\"}",
+        "retrieved_at": "2026-10-13T12:01:15.377638+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.primary_nace",
+        "value": {
+          "beskrivelse": "Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer",
+          "kode": "62.200"
+        },
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989061593",
+        "evidence_snippet": "{\"beskrivelse\": \"Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer\", \"kode\": \"62.200\"}",
+        "retrieved_at": "2026-10-13T12:01:15.377638+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "financials.share_capital",
+        "value": 108000.0,
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989061593",
+        "evidence_snippet": "{\"antallAksjer\": 4800, \"belop\": 108000.0, \"innfortDato\": \"2012-02-15\", \"type\": \"Aksjekapital\", \"valuta\": \"NOK\"}",
+        "retrieved_at": "2026-10-13T12:01:15.377638+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "financials.last_submitted_annual_accounts_year",
+        "value": "2025",
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989061593",
+        "evidence_snippet": "\"sisteInnsendteAarsregnskap\": \"2025\"",
+        "retrieved_at": "2026-10-13T12:01:15.377638+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.statutory_purpose",
+        "value": [
+          "Investeringer, eiendom, konsulentvirksomhet og rådgivning innenfor",
+          "finansielle områder samt forretningsutvikling."
+        ],
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989061593",
+        "evidence_snippet": "[\"Investeringer, eiendom, konsulentvirksomhet og r\\u00e5dgivning innenfor\", \"finansielle omr\\u00e5der samt forretningsutvikling.\"]",
+        "retrieved_at": "2026-10-13T12:01:15.377638+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "people.ceo",
+        "value": {
+          "name": "Geir Inge Gjørva",
+          "role": "Daglig leder",
+          "appointed_date": "2006-01-23"
+        },
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989061593/roller",
+        "evidence_snippet": "{\"avregistrert\": false, \"person\": {\"erDoed\": false, \"fodselsdato\": \"1967-10-18\", \"navn\": {\"etternavn\": \"Gj\\u00f8rva\", \"fornavn\": \"Geir Inge\"}}, \"rekkefolge\": 0, \"type\": {\"_links\": {\"self\": {\"href\": \"https://data.brreg.no/enhetsregisteret/api/roller/rolletyper/DAGL\"}}, \"beskrivelse\": \"Daglig leder\", \"kode\": \"DAGL\"}}",
+        "retrieved_at": "2026-10-13T12:01:15.377638+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "people.chair_of_board",
+        "value": {
+          "name": "Geir Inge Gjørva",
+          "role": "Styrets leder",
+          "role_code": "LEDE"
+        },
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989061593/roller",
+        "evidence_snippet": "{\"avregistrert\": false, \"person\": {\"erDoed\": false, \"fodselsdato\": \"1967-10-18\", \"navn\": {\"etternavn\": \"Gj\\u00f8rva\", \"fornavn\": \"Geir Inge\"}}, \"rekkefolge\": 0, \"type\": {\"_links\": {\"self\": {\"href\": \"https://data.brreg.no/enhetsregisteret/api/roller/rolletyper/LEDE\"}}, \"beskrivelse\": \"Styrets leder\", \"kode\": \"LEDE\"}}",
+        "retrieved_at": "2026-10-13T12:01:15.377638+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "people.board_members",
+        "value": [
+          {
+            "name": "Lene Margrethe Gjørva",
+            "role": "Varamedlem",
+            "role_code": "VARA"
+          }
+        ],
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/989061593/roller",
+        "evidence_snippet": "Total board members: 1",
+        "retrieved_at": "2026-10-13T12:01:15.377638+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      }
+    ],
+    "explanations": {
+      "disambiguation_reasoning": "Resolved target entity '-G- GROUP AS' via validated 9-digit Norwegian Organisasjonsnummer (989061593). Classified as 'Aksjeselskap' under primary industry 'Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer'. Distinguished from parent, subsidiary, and local branch entities.",
+      "status_envelope_reasoning": "Status 'available': Verified against Norwegian Central Coordinating Register (Enhetsregisteret) record for orgnr 989061593. Authoritative legal identity, organizational roles, and governance data confirmed.",
+      "executive_summary": "-G- GROUP AS (Org. nr. 989061593) is a Norwegian Aksjeselskap headquartered in OSLO, with registered workforce details on file. The enterprise primarily operates within konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer. Registered statutory scope: Investeringer, eiendom, konsulentvirksomhet og rådgivning innenfor finansielle områder samt forretningsutvikling...."
+    },
+    "audit_log": []
+  },
+  {
+    "organisasjonsnummer": "988539473",
+    "status": "available",
+    "last_updated": "2026-10-13T12:01:15.374775+00:00",
+    "data": {
+      "company_details": {
+        "name": "-EBE- DATA Eyolf Berg",
+        "organisasjonsnummer": "988539473",
+        "legal_form": {
+          "code": "ENK",
+          "name": "Enkeltpersonforetak"
+        },
+        "is_active": true,
+        "is_bankrupt": false,
+        "in_liquidation": false,
+        "registration_date": "2005-08-20",
+        "founding_date": "",
+        "business_address": {
+          "address_lines": [
+            "Bekkeliveien 5"
+          ],
+          "postal_code": "3470",
+          "city": "SLEMMESTAD",
+          "municipality": "ASKER",
+          "municipality_number": "3203",
+          "country": "Norge",
+          "country_code": "NO"
+        },
+        "postal_address": {
+          "address_lines": [],
+          "postal_code": "",
+          "city": "",
+          "municipality": "",
+          "municipality_number": "",
+          "country": "Norge",
+          "country_code": "NO"
+        },
+        "primary_nace": {
+          "beskrivelse": "Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer",
+          "kode": "62.200"
+        },
+        "statutory_purpose": [],
+        "historical_names": []
+      },
+      "people": {
+        "ceo": null,
+        "chair_of_board": null,
+        "board_members": [],
+        "auditor": null
+      },
+      "workforce": {
+        "employee_count": null,
+        "registration_date": null
+      },
+      "financials": {
+        "share_capital": null,
+        "currency": "NOK",
+        "number_of_shares": null,
+        "last_submitted_annual_accounts_year": null
+      },
+      "web_and_contact": {
+        "website_url": "www.ebe-data.com",
+        "phone": null,
+        "contact_emails": [],
+        "social_links": {},
+        "meta_description": ""
+      },
+      "sub_entities": []
+    },
+    "provenance": [
+      {
+        "field": "company_details.name",
+        "value": "-EBE- DATA Eyolf Berg",
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988539473",
+        "evidence_snippet": "\"navn\": \"-EBE- DATA Eyolf Berg\"",
+        "retrieved_at": "2026-10-13T12:01:15.374775+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.legal_form",
+        "value": {
+          "kode": "ENK",
+          "beskrivelse": "Enkeltpersonforetak"
+        },
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988539473",
+        "evidence_snippet": "{\"_links\": {\"self\": {\"href\": \"https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK\"}}, \"beskrivelse\": \"Enkeltpersonforetak\", \"kode\": \"ENK\"}",
+        "retrieved_at": "2026-10-13T12:01:15.374775+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.registration_date",
+        "value": "2005-08-20",
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988539473",
+        "evidence_snippet": "\"registreringsdatoEnhetsregisteret\": \"2005-08-20\"",
+        "retrieved_at": "2026-10-13T12:01:15.374775+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.is_active",
+        "value": true,
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988539473",
+        "evidence_snippet": "\"konkurs\": false, \"underAvvikling\": false",
+        "retrieved_at": "2026-10-13T12:01:15.374775+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.is_bankrupt",
+        "value": false,
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988539473",
+        "evidence_snippet": "\"konkurs\": false",
+        "retrieved_at": "2026-10-13T12:01:15.374775+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.in_liquidation",
+        "value": false,
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988539473",
+        "evidence_snippet": "\"underAvvikling\": false",
+        "retrieved_at": "2026-10-13T12:01:15.374775+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.business_address",
+        "value": {
+          "address_lines": [
+            "Bekkeliveien 5"
+          ],
+          "postal_code": "3470",
+          "city": "SLEMMESTAD",
+          "municipality": "ASKER",
+          "municipality_number": "3203",
+          "country": "Norge",
+          "country_code": "NO"
+        },
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988539473",
+        "evidence_snippet": "{\"adresse\": [\"Bekkeliveien 5\"], \"kommune\": \"ASKER\", \"kommunenummer\": \"3203\", \"land\": \"Norge\", \"landkode\": \"NO\", \"postnummer\": \"3470\", \"poststed\": \"SLEMMESTAD\"}",
+        "retrieved_at": "2026-10-13T12:01:15.374775+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.primary_nace",
+        "value": {
+          "beskrivelse": "Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer",
+          "kode": "62.200"
+        },
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988539473",
+        "evidence_snippet": "{\"beskrivelse\": \"Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer\", \"kode\": \"62.200\"}",
+        "retrieved_at": "2026-10-13T12:01:15.374775+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.statutory_purpose",
+        "value": [],
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988539473",
+        "evidence_snippet": "[]",
+        "retrieved_at": "2026-10-13T12:01:15.374775+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "web_and_contact.website_url",
+        "value": "www.ebe-data.com",
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/988539473",
+        "evidence_snippet": "\"hjemmeside\": \"www.ebe-data.com\"",
+        "retrieved_at": "2026-10-13T12:01:15.374775+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      }
+    ],
+    "explanations": {
+      "disambiguation_reasoning": "Resolved target entity '-EBE- DATA Eyolf Berg' via validated 9-digit Norwegian Organisasjonsnummer (988539473). Classified as 'Enkeltpersonforetak' under primary industry 'Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer'. Distinguished from parent, subsidiary, and local branch entities.",
+      "status_envelope_reasoning": "Status 'available': Verified against Norwegian Central Coordinating Register (Enhetsregisteret) record for orgnr 988539473. Authoritative legal identity, organizational roles, and governance data confirmed.",
+      "executive_summary": "-EBE- DATA Eyolf Berg (Org. nr. 988539473) is a Norwegian Enkeltpersonforetak headquartered in SLEMMESTAD, with registered workforce details on file. The enterprise primarily operates within konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer."
+    },
+    "audit_log": []
+  },
+  {
+    "organisasjonsnummer": "934551435",
+    "status": "available",
+    "last_updated": "2026-10-13T12:01:15.371961+00:00",
+    "data": {
+      "company_details": {
+        "name": "----ADVOKATFIRMAET CATO MYHRE",
+        "organisasjonsnummer": "934551435",
+        "legal_form": {
+          "code": "ENK",
+          "name": "Enkeltpersonforetak"
+        },
+        "is_active": true,
+        "is_bankrupt": false,
+        "in_liquidation": false,
+        "registration_date": "2024-11-27",
+        "founding_date": "",
+        "business_address": {
+          "address_lines": [
+            "Grimelundshaugen 33"
+          ],
+          "postal_code": "0374",
+          "city": "OSLO",
+          "municipality": "OSLO",
+          "municipality_number": "0301",
+          "country": "Norge",
+          "country_code": "NO"
+        },
+        "postal_address": {
+          "address_lines": [],
+          "postal_code": "",
+          "city": "",
+          "municipality": "",
+          "municipality_number": "",
+          "country": "Norge",
+          "country_code": "NO"
+        },
+        "primary_nace": {
+          "beskrivelse": "Juridisk tjenesteyting",
+          "kode": "69.100"
+        },
+        "statutory_purpose": [],
+        "historical_names": []
+      },
+      "people": {
+        "ceo": null,
+        "chair_of_board": null,
+        "board_members": [],
+        "auditor": {
+          "name": [
+            "CEDRA NORGE AS"
+          ],
+          "organisasjonsnummer": "935416779",
+          "status": "Godkjent revisjonsforetak"
+        }
+      },
+      "workforce": {
+        "employee_count": null,
+        "registration_date": null
+      },
+      "financials": {
+        "share_capital": null,
+        "currency": "NOK",
+        "number_of_shares": null,
+        "last_submitted_annual_accounts_year": "2025"
+      },
+      "web_and_contact": {
+        "website_url": null,
+        "phone": null,
+        "contact_emails": [],
+        "social_links": {},
+        "meta_description": ""
+      },
+      "sub_entities": [
+        {
+          "navn": "----ADVOKATFIRMAET CATO MYHRE",
+          "organisasjonsnummer": "934551524",
+          "antallAnsatte": null
+        }
+      ]
+    },
+    "provenance": [
+      {
+        "field": "company_details.name",
+        "value": "----ADVOKATFIRMAET CATO MYHRE",
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934551435",
+        "evidence_snippet": "\"navn\": \"----ADVOKATFIRMAET CATO MYHRE\"",
+        "retrieved_at": "2026-10-13T12:01:15.371961+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.legal_form",
+        "value": {
+          "kode": "ENK",
+          "beskrivelse": "Enkeltpersonforetak"
+        },
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934551435",
+        "evidence_snippet": "{\"_links\": {\"self\": {\"href\": \"https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK\"}}, \"beskrivelse\": \"Enkeltpersonforetak\", \"kode\": \"ENK\"}",
+        "retrieved_at": "2026-10-13T12:01:15.371961+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.registration_date",
+        "value": "2024-11-27",
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934551435",
+        "evidence_snippet": "\"registreringsdatoEnhetsregisteret\": \"2024-11-27\"",
+        "retrieved_at": "2026-10-13T12:01:15.371961+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.is_active",
+        "value": true,
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934551435",
+        "evidence_snippet": "\"konkurs\": false, \"underAvvikling\": false",
+        "retrieved_at": "2026-10-13T12:01:15.371961+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.is_bankrupt",
+        "value": false,
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934551435",
+        "evidence_snippet": "\"konkurs\": false",
+        "retrieved_at": "2026-10-13T12:01:15.371961+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.in_liquidation",
+        "value": false,
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934551435",
+        "evidence_snippet": "\"underAvvikling\": false",
+        "retrieved_at": "2026-10-13T12:01:15.371961+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.business_address",
+        "value": {
+          "address_lines": [
+            "Grimelundshaugen 33"
+          ],
+          "postal_code": "0374",
+          "city": "OSLO",
+          "municipality": "OSLO",
+          "municipality_number": "0301",
+          "country": "Norge",
+          "country_code": "NO"
+        },
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934551435",
+        "evidence_snippet": "{\"adresse\": [\"Grimelundshaugen 33\"], \"kommune\": \"OSLO\", \"kommunenummer\": \"0301\", \"land\": \"Norge\", \"landkode\": \"NO\", \"postnummer\": \"0374\", \"poststed\": \"OSLO\"}",
+        "retrieved_at": "2026-10-13T12:01:15.371961+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.primary_nace",
+        "value": {
+          "beskrivelse": "Juridisk tjenesteyting",
+          "kode": "69.100"
+        },
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934551435",
+        "evidence_snippet": "{\"beskrivelse\": \"Juridisk tjenesteyting\", \"kode\": \"69.100\"}",
+        "retrieved_at": "2026-10-13T12:01:15.371961+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "financials.last_submitted_annual_accounts_year",
+        "value": "2025",
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934551435",
+        "evidence_snippet": "\"sisteInnsendteAarsregnskap\": \"2025\"",
+        "retrieved_at": "2026-10-13T12:01:15.371961+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.statutory_purpose",
+        "value": [],
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934551435",
+        "evidence_snippet": "[]",
+        "retrieved_at": "2026-10-13T12:01:15.371961+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "people.auditor",
+        "value": {
+          "name": [
+            "CEDRA NORGE AS"
+          ],
+          "organisasjonsnummer": "935416779",
+          "status": "Godkjent revisjonsforetak"
+        },
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/934551435/roller",
+        "evidence_snippet": "{\"avregistrert\": false, \"enhet\": {\"_links\": {\"self\": {\"href\": \"https://data.brreg.no/enhetsregisteret/api/enheter/935416779\"}}, \"erSlettet\": false, \"godkjenningsstatus\": \"Godkjent revisjonsforetak\", \"navn\": [\"CEDRA NORGE AS\"], \"organisasjonsform\": {\"_links\": {\"self\": {\"href\": \"https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS\"}}, \"beskrivelse\": \"Aksjeselskap\", \"kode\": \"AS\"}, \"organisasjonsnummer\": \"935416779\"}, \"rekkefolge\": 0, \"type\": {\"_links\": {\"self\": {\"href\": \"https://data.brreg.no/enhetsregisteret/api/roller/rolletyper/REVI\"}}, \"beskrivelse\": \"Revisor\", \"kode\": \"REVI\"}}",
+        "retrieved_at": "2026-10-13T12:01:15.371961+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "sub_entities",
+        "value": [
+          {
+            "navn": "----ADVOKATFIRMAET CATO MYHRE",
+            "organisasjonsnummer": "934551524",
+            "antallAnsatte": null
+          }
+        ],
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=934551435",
+        "evidence_snippet": "Sub-entities count: 1",
+        "retrieved_at": "2026-10-13T12:01:15.371961+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      }
+    ],
+    "explanations": {
+      "disambiguation_reasoning": "Resolved target entity '----ADVOKATFIRMAET CATO MYHRE' via validated 9-digit Norwegian Organisasjonsnummer (934551435). Classified as 'Enkeltpersonforetak' under primary industry 'Juridisk tjenesteyting'. Distinguished from parent, subsidiary, and local branch entities.",
+      "status_envelope_reasoning": "Status 'available': Verified against Norwegian Central Coordinating Register (Enhetsregisteret) record for orgnr 934551435. Authoritative legal identity, organizational roles, and governance data confirmed.",
+      "executive_summary": "----ADVOKATFIRMAET CATO MYHRE (Org. nr. 934551435) is a Norwegian Enkeltpersonforetak headquartered in OSLO, with registered workforce details on file. The enterprise primarily operates within juridisk tjenesteyting."
+    },
+    "audit_log": []
+  },
+  {
+    "organisasjonsnummer": "933365573",
+    "status": "available",
+    "last_updated": "2026-10-13T12:01:15.369788+00:00",
+    "data": {
+      "company_details": {
+        "name": "- ZOTKO .NO",
+        "organisasjonsnummer": "933365573",
+        "legal_form": {
+          "code": "ENK",
+          "name": "Enkeltpersonforetak"
+        },
+        "is_active": true,
+        "is_bankrupt": false,
+        "in_liquidation": false,
+        "registration_date": "2024-04-25",
+        "founding_date": "",
+        "business_address": {
+          "address_lines": [
+            "Follerøvegen 20"
+          ],
+          "postal_code": "6652",
+          "city": "SURNADAL",
+          "municipality": "SURNADAL",
+          "municipality_number": "1566",
+          "country": "Norge",
+          "country_code": "NO"
+        },
+        "postal_address": {
+          "address_lines": [],
+          "postal_code": "",
+          "city": "",
+          "municipality": "",
+          "municipality_number": "",
+          "country": "Norge",
+          "country_code": "NO"
+        },
+        "primary_nace": {
+          "beskrivelse": "Detaljhandel med drikkevarer",
+          "kode": "47.250"
+        },
+        "statutory_purpose": [],
+        "historical_names": []
+      },
+      "people": {
+        "ceo": null,
+        "chair_of_board": null,
+        "board_members": [],
+        "auditor": null
+      },
+      "workforce": {
+        "employee_count": null,
+        "registration_date": null
+      },
+      "financials": {
+        "share_capital": null,
+        "currency": "NOK",
+        "number_of_shares": null,
+        "last_submitted_annual_accounts_year": null
+      },
+      "web_and_contact": {
+        "website_url": null,
+        "phone": null,
+        "contact_emails": [],
+        "social_links": {},
+        "meta_description": ""
+      },
+      "sub_entities": [
+        {
+          "navn": "- ZOTKO .NO",
+          "organisasjonsnummer": "933489272",
+          "antallAnsatte": null
+        }
+      ]
+    },
+    "provenance": [
+      {
+        "field": "company_details.name",
+        "value": "- ZOTKO .NO",
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933365573",
+        "evidence_snippet": "\"navn\": \"- ZOTKO .NO\"",
+        "retrieved_at": "2026-10-13T12:01:15.369788+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.legal_form",
+        "value": {
+          "kode": "ENK",
+          "beskrivelse": "Enkeltpersonforetak"
+        },
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933365573",
+        "evidence_snippet": "{\"_links\": {\"self\": {\"href\": \"https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/ENK\"}}, \"beskrivelse\": \"Enkeltpersonforetak\", \"kode\": \"ENK\"}",
+        "retrieved_at": "2026-10-13T12:01:15.369788+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.registration_date",
+        "value": "2024-04-25",
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933365573",
+        "evidence_snippet": "\"registreringsdatoEnhetsregisteret\": \"2024-04-25\"",
+        "retrieved_at": "2026-10-13T12:01:15.369788+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.is_active",
+        "value": true,
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933365573",
+        "evidence_snippet": "\"konkurs\": false, \"underAvvikling\": false",
+        "retrieved_at": "2026-10-13T12:01:15.369788+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.is_bankrupt",
+        "value": false,
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933365573",
+        "evidence_snippet": "\"konkurs\": false",
+        "retrieved_at": "2026-10-13T12:01:15.369788+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.in_liquidation",
+        "value": false,
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933365573",
+        "evidence_snippet": "\"underAvvikling\": false",
+        "retrieved_at": "2026-10-13T12:01:15.369788+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.business_address",
+        "value": {
+          "address_lines": [
+            "Follerøvegen 20"
+          ],
+          "postal_code": "6652",
+          "city": "SURNADAL",
+          "municipality": "SURNADAL",
+          "municipality_number": "1566",
+          "country": "Norge",
+          "country_code": "NO"
+        },
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933365573",
+        "evidence_snippet": "{\"adresse\": [\"Foller\\u00f8vegen 20\"], \"kommune\": \"SURNADAL\", \"kommunenummer\": \"1566\", \"land\": \"Norge\", \"landkode\": \"NO\", \"postnummer\": \"6652\", \"poststed\": \"SURNADAL\"}",
+        "retrieved_at": "2026-10-13T12:01:15.369788+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.primary_nace",
+        "value": {
+          "beskrivelse": "Detaljhandel med drikkevarer",
+          "kode": "47.250"
+        },
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933365573",
+        "evidence_snippet": "{\"beskrivelse\": \"Detaljhandel med drikkevarer\", \"kode\": \"47.250\"}",
+        "retrieved_at": "2026-10-13T12:01:15.369788+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.statutory_purpose",
+        "value": [],
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/933365573",
+        "evidence_snippet": "[]",
+        "retrieved_at": "2026-10-13T12:01:15.369788+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "sub_entities",
+        "value": [
+          {
+            "navn": "- ZOTKO .NO",
+            "organisasjonsnummer": "933489272",
+            "antallAnsatte": null
+          }
+        ],
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=933365573",
+        "evidence_snippet": "Sub-entities count: 1",
+        "retrieved_at": "2026-10-13T12:01:15.369788+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      }
+    ],
+    "explanations": {
+      "disambiguation_reasoning": "Resolved target entity '- ZOTKO .NO' via validated 9-digit Norwegian Organisasjonsnummer (933365573). Classified as 'Enkeltpersonforetak' under primary industry 'Detaljhandel med drikkevarer'. Distinguished from parent, subsidiary, and local branch entities.",
+      "status_envelope_reasoning": "Status 'available': Verified against Norwegian Central Coordinating Register (Enhetsregisteret) record for orgnr 933365573. Authoritative legal identity, organizational roles, and governance data confirmed.",
+      "executive_summary": "- ZOTKO .NO (Org. nr. 933365573) is a Norwegian Enkeltpersonforetak headquartered in SURNADAL, with registered workforce details on file. The enterprise primarily operates within detaljhandel med drikkevarer."
+    },
+    "audit_log": []
+  },
+  {
+    "organisasjonsnummer": "916627939",
+    "status": "available",
+    "last_updated": "2026-10-13T12:01:15.368925+00:00",
+    "data": {
+      "company_details": {
+        "name": "- P A L M E R A -",
+        "organisasjonsnummer": "916627939",
+        "legal_form": {
+          "code": "FLI",
+          "name": "Forening/lag/innretning"
+        },
+        "is_active": true,
+        "is_bankrupt": false,
+        "in_liquidation": false,
+        "registration_date": "2016-01-26",
+        "founding_date": "2015-11-01",
+        "business_address": {
+          "address_lines": [
+            "Strandgaten 208"
+          ],
+          "postal_code": "5004",
+          "city": "BERGEN",
+          "municipality": "BERGEN",
+          "municipality_number": "4601",
+          "country": "Norge",
+          "country_code": "NO"
+        },
+        "postal_address": {
+          "address_lines": [
+            "c/o Lady Tatiana Lozano Prieto",
+            "Hans Hauges gate 37"
+          ],
+          "postal_code": "5033",
+          "city": "BERGEN",
+          "municipality": "BERGEN",
+          "municipality_number": "4601",
+          "country": "Norge",
+          "country_code": "NO"
+        },
+        "primary_nace": {
+          "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+          "kode": "94.992"
+        },
+        "statutory_purpose": [],
+        "historical_names": [
+          {
+            "fraDato": "2016-01-26 13:52:19",
+            "navn": "FELT",
+            "tilDato": "2018-02-22 17:54:00"
+          }
+        ]
+      },
+      "people": {
+        "ceo": {
+          "name": "Lady Tatiana Lozano Prieto",
+          "role": "Daglig leder",
+          "appointed_date": "2016-01-26"
+        },
+        "chair_of_board": {
+          "name": "Lady Tatiana Lozano Prieto",
+          "role": "Styrets leder",
+          "role_code": "LEDE"
+        },
+        "board_members": [
+          {
+            "name": "Sonia Marina Mendes Barreiro",
+            "role": "Styremedlem",
+            "role_code": "MEDL"
+          },
+          {
+            "name": "Kristina Valvik",
+            "role": "Styremedlem",
+            "role_code": "MEDL"
+          },
+          {
+            "name": "Lasse Årikstad",
+            "role": "Styremedlem",
+            "role_code": "MEDL"
+          }
+        ],
+        "auditor": null
+      },
+      "workforce": {
+        "employee_count": null,
+        "registration_date": null
+      },
+      "financials": {
+        "share_capital": null,
+        "currency": "NOK",
+        "number_of_shares": null,
+        "last_submitted_annual_accounts_year": null
+      },
+      "web_and_contact": {
+        "website_url": "palmera-i-bergen.no",
+        "phone": null,
+        "contact_emails": [],
+        "social_links": {},
+        "meta_description": ""
+      },
+      "sub_entities": []
+    },
+    "provenance": [
+      {
+        "field": "company_details.name",
+        "value": "- P A L M E R A -",
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916627939",
+        "evidence_snippet": "\"navn\": \"- P A L M E R A -\"",
+        "retrieved_at": "2026-10-13T12:01:15.368925+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.legal_form",
+        "value": {
+          "kode": "FLI",
+          "beskrivelse": "Forening/lag/innretning"
+        },
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916627939",
+        "evidence_snippet": "{\"_links\": {\"self\": {\"href\": \"https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI\"}}, \"beskrivelse\": \"Forening/lag/innretning\", \"kode\": \"FLI\"}",
+        "retrieved_at": "2026-10-13T12:01:15.368925+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.registration_date",
+        "value": "2016-01-26",
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916627939",
+        "evidence_snippet": "\"registreringsdatoEnhetsregisteret\": \"2016-01-26\"",
+        "retrieved_at": "2026-10-13T12:01:15.368925+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.founding_date",
+        "value": "2015-11-01",
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916627939",
+        "evidence_snippet": "\"stiftelsesdato\": \"2015-11-01\"",
+        "retrieved_at": "2026-10-13T12:01:15.368925+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.is_active",
+        "value": true,
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916627939",
+        "evidence_snippet": "\"konkurs\": false, \"underAvvikling\": false",
+        "retrieved_at": "2026-10-13T12:01:15.368925+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.is_bankrupt",
+        "value": false,
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916627939",
+        "evidence_snippet": "\"konkurs\": false",
+        "retrieved_at": "2026-10-13T12:01:15.368925+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.in_liquidation",
+        "value": false,
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916627939",
+        "evidence_snippet": "\"underAvvikling\": false",
+        "retrieved_at": "2026-10-13T12:01:15.368925+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.business_address",
+        "value": {
+          "address_lines": [
+            "Strandgaten 208"
+          ],
+          "postal_code": "5004",
+          "city": "BERGEN",
+          "municipality": "BERGEN",
+          "municipality_number": "4601",
+          "country": "Norge",
+          "country_code": "NO"
+        },
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916627939",
+        "evidence_snippet": "{\"adresse\": [\"Strandgaten 208\"], \"kommune\": \"BERGEN\", \"kommunenummer\": \"4601\", \"land\": \"Norge\", \"landkode\": \"NO\", \"postnummer\": \"5004\", \"poststed\": \"BERGEN\"}",
+        "retrieved_at": "2026-10-13T12:01:15.368925+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.primary_nace",
+        "value": {
+          "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+          "kode": "94.992"
+        },
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916627939",
+        "evidence_snippet": "{\"beskrivelse\": \"Aktiviteter i andre medlemsorganisasjoner ellers\", \"kode\": \"94.992\"}",
+        "retrieved_at": "2026-10-13T12:01:15.368925+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "company_details.statutory_purpose",
+        "value": [],
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916627939",
+        "evidence_snippet": "[]",
+        "retrieved_at": "2026-10-13T12:01:15.368925+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "people.ceo",
+        "value": {
+          "name": "Lady Tatiana Lozano Prieto",
+          "role": "Daglig leder",
+          "appointed_date": "2016-01-26"
+        },
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916627939/roller",
+        "evidence_snippet": "{\"avregistrert\": false, \"person\": {\"erDoed\": false, \"fodselsdato\": \"1985-05-29\", \"navn\": {\"etternavn\": \"Lozano Prieto\", \"fornavn\": \"Lady Tatiana\"}}, \"rekkefolge\": 0, \"type\": {\"_links\": {\"self\": {\"href\": \"https://data.brreg.no/enhetsregisteret/api/roller/rolletyper/DAGL\"}}, \"beskrivelse\": \"Daglig leder\", \"kode\": \"DAGL\"}}",
+        "retrieved_at": "2026-10-13T12:01:15.368925+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "people.chair_of_board",
+        "value": {
+          "name": "Lady Tatiana Lozano Prieto",
+          "role": "Styrets leder",
+          "role_code": "LEDE"
+        },
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916627939/roller",
+        "evidence_snippet": "{\"avregistrert\": false, \"person\": {\"erDoed\": false, \"fodselsdato\": \"1985-05-29\", \"navn\": {\"etternavn\": \"Lozano Prieto\", \"fornavn\": \"Lady Tatiana\"}}, \"rekkefolge\": 0, \"type\": {\"_links\": {\"self\": {\"href\": \"https://data.brreg.no/enhetsregisteret/api/roller/rolletyper/LEDE\"}}, \"beskrivelse\": \"Styrets leder\", \"kode\": \"LEDE\"}}",
+        "retrieved_at": "2026-10-13T12:01:15.368925+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "people.board_members",
+        "value": [
+          {
+            "name": "Sonia Marina Mendes Barreiro",
+            "role": "Styremedlem",
+            "role_code": "MEDL"
+          },
+          {
+            "name": "Kristina Valvik",
+            "role": "Styremedlem",
+            "role_code": "MEDL"
+          },
+          {
+            "name": "Lasse Årikstad",
+            "role": "Styremedlem",
+            "role_code": "MEDL"
+          }
+        ],
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916627939/roller",
+        "evidence_snippet": "Total board members: 3",
+        "retrieved_at": "2026-10-13T12:01:15.368925+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      },
+      {
+        "field": "web_and_contact.website_url",
+        "value": "palmera-i-bergen.no",
+        "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916627939",
+        "evidence_snippet": "\"hjemmeside\": \"palmera-i-bergen.no\"",
+        "retrieved_at": "2026-10-13T12:01:15.368925+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      }
+    ],
+    "explanations": {
+      "disambiguation_reasoning": "Resolved target entity '- P A L M E R A -' via validated 9-digit Norwegian Organisasjonsnummer (916627939). Classified as 'Forening/lag/innretning' under primary industry 'Aktiviteter i andre medlemsorganisasjoner ellers'. Distinguished from parent, subsidiary, and local branch entities.",
+      "status_envelope_reasoning": "Status 'available': Verified against Norwegian Central Coordinating Register (Enhetsregisteret) record for orgnr 916627939. Authoritative legal identity, organizational roles, and governance data confirmed.",
+      "executive_summary": "- P A L M E R A - (Org. nr. 916627939) is a Norwegian Forening/lag/innretning headquartered in BERGEN, with registered workforce details on file. The enterprise primarily operates within aktiviteter i andre medlemsorganisasjoner ellers."
+    },
+    "audit_log": []
+  },
+  {
+    "organisasjonsnummer": "923609016",
+    "status": "available",
+    "last_updated": "2026-10-13T12:00:30.182574+00:00",
+    "data": {
+      "company_details": {
+        "name": "EQUINOR ASA",
+        "organisasjonsnummer": "923609016",
+        "legal_form": {
+          "code": "ASA",
+          "name": "Allmennaksjeselskap"
+        },
+        "is_active": true,
+        "is_bankrupt": false,
+        "in_liquidation": false,
+        "registration_date": "1995-03-12",
+        "founding_date": "1972-09-18",
+        "business_address": {
+          "address_lines": [
+            "Forusbeen 50"
+          ],
+          "postal_code": "4035",
+          "city": "STAVANGER",
+          "municipality": "STAVANGER",
+          "municipality_number": "1103",
+          "country": "Norge",
+          "country_code": "NO"
+        },
+        "postal_address": {
+          "address_lines": [
+            "Postboks 8500"
+          ],
+          "postal_code": "4035",
+          "city": "STAVANGER",
+          "municipality": "STAVANGER",
+          "municipality_number": "1103",
+          "country": "Norge",
+          "country_code": "NO"
+        },
+        "primary_nace": {
+          "beskrivelse": "Utvinning av råolje",
+          "kode": "06.100"
+        },
+        "statutory_purpose": [
+          "Å utvikle, produsere og markedsføre ulike former for energi, avledede",
+          "produkter og tjenester, samt annen virksomhet. Virksomheten kan også",
+          "drives gjennom deltakelse i eller i samarbeid med andre selskaper."
+        ],
+        "historical_names": [
+          {
+            "fraDato": "1995-03-12 16:23:00",
+            "navn": "Den norske stats oljeselskap a.s",
+            "tilDato": "2001-05-11 08:32:09"
+          },
+          {
+            "fraDato": "2001-05-11 08:32:09",
+            "navn": "STATOIL ASA",
+            "tilDato": "2007-10-01 06:44:33"
+          },
+          {
+            "fraDato": "2007-10-01 06:44:33",
+            "navn": "STATOILHYDRO ASA",
+            "tilDato": "2009-11-02 07:56:24"
+          },
+          {
+            "fraDato": "2009-11-02 07:56:24",
+            "navn": "STATOIL ASA",
+            "tilDato": "2018-05-16 07:05:45"
+          }
+        ]
+      },
+      "people": {
+        "ceo": {
+          "name": "Anders Opedal",
+          "role": "Daglig leder",
+          "appointed_date": "2020-11-02"
+        },
+        "chair_of_board": {
+          "name": "Jarle Kjell Roth",
+          "role": "Styrets leder",
+          "role_code": "LEDE"
+        },
+        "board_members": [
+          {
+            "name": "Finn Bjørn Ruyter",
+            "role": "Styremedlem",
+            "role_code": "MEDL"
+          },
+          {
+            "name": "Haakon Stephen Bruun-Hanssen",
+            "role": "Styremedlem",
+            "role_code": "MEDL"
+          },
+          {
+            "name": "Fernanda Lopes Larsen",
+            "role": "Styremedlem",
+            "role_code": "MEDL"
+          },
+          {
+            "name": "Hilde Møllerstad",
+            "role": "Styremedlem",
+            "role_code": "MEDL"
+          },
+          {
+            "name": "Frank Gundersen",
+            "role": "Styremedlem",
+            "role_code": "MEDL"
+          },
+          {
+            "name": "Geir Leon Vadheim",
+            "role": "Styremedlem",
+            "role_code": "MEDL"
+          },
+          {
+            "name": "Anne Drinkwater",
+            "role": "Styremedlem",
+            "role_code": "MEDL"
+          },
+          {
+            "name": "Mikael Roland Karlsson",
+            "role": "Styremedlem",
+            "role_code": "MEDL"
+          },
+          {
+            "name": "Dawn Summers",
+            "role": "Styremedlem",
+            "role_code": "MEDL"
+          },
+          {
+            "name": "Hans Einar Haldorsen",
+            "role": "Varamedlem",
+            "role_code": "VARA"
+          },
+          {
+            "name": "Anette Heggholmen",
+            "role": "Varamedlem",
+            "role_code": "VARA"
+          },
+          {
+            "name": "Terje Werner Hansen",
+            "role": "Varamedlem",
+            "role_code": "VARA"
+          }
+        ],
+        "auditor": {
+          "name": [
+            "ERNST & YOUNG AS"
+          ],
+          "organisasjonsnummer": "976389387",
+          "status": "Godkjent revisjonsforetak"
+        }
+      },
+      "workforce": {
+        "employee_count": 21300,
+        "registration_date": "2026-10-13"
+      },
+      "financials": {
+        "share_capital": 5976872600.0,
+        "currency": "NOK",
+        "number_of_shares": 2390749040,
+        "last_submitted_annual_accounts_year": "2025"
+      },
+      "web_and_contact": {
+        "website_url": "www.equinor.com",
+        "phone": "51 99 00 00",
+        "contact_emails": [],
+        "social_links": {},
+        "meta_description": ""
+      },
+      "sub_entities": [
+        {
+          "navn": "EQUINOR ASA AVD CCB SOTRA",
+          "organisasjonsnummer": "973861883",
+          "antallAnsatte": 39
+        },
+        {
+          "navn": "EQUINOR ASA AVD CSO GBS PRS PURCHASING",
+          "organisasjonsnummer": "991770526",
+          "antallAnsatte": null
+        },
+        {
+          "navn": "EQUINOR ASA AVD DRIFTSSENTER BYGSNES",
+          "organisasjonsnummer": "973861832",
+          "antallAnsatte": null
+        },
+        {
+          "navn": "EQUINOR ASA AVD EPN DRIFT NORD AVD HARSTAD",
+          "organisasjonsnummer": "974160099",
+          "antallAnsatte": null
+        },
+        {
+          "navn": "EQUINOR ASA AVD EPN DRIFT NORD AVD KRISTIANSUND",
+          "organisasjonsnummer": "973101870",
+          "antallAnsatte": null
+        },
+        {
+          "navn": "EQUINOR ASA AVD FIELD LIFE EXTENTIONS",
+          "organisasjonsnummer": "924658622",
+          "antallAnsatte": null
+        },
+        {
+          "navn": "EQUINOR ASA AVD FMS LDO VÆKERØ",
+          "organisasjonsnummer": "991770593",
+          "antallAnsatte": null
+        },
+        {
+          "navn": "EQUINOR ASA AVD FORSKNINGSSENTER RANHEIM",
+          "organisasjonsnummer": "973152408",
+          "antallAnsatte": 647
+        },
+        {
+          "navn": "EQUINOR ASA AVD FORTUN HPU",
+          "organisasjonsnummer": "991770577",
+          "antallAnsatte": null
+        },
+        {
+          "navn": "EQUINOR ASA AVD HAMMERFEST LNG SNØHVIT",
+          "organisasjonsnummer": "893247092",
+          "antallAnsatte": 559
+        },
+        {
+          "navn": "EQUINOR ASA AVD INTERNATIONAL",
+          "organisasjonsnummer": "991770542",
+          "antallAnsatte": null
+        },
+        {
+          "navn": "EQUINOR ASA AVD KONTOR BERGEN",
+          "organisasjonsnummer": "873152362",
+          "antallAnsatte": 3678
+        },
+        {
+          "navn": "EQUINOR ASA AVD KONTOR FLORØ",
+          "organisasjonsnummer": "973861875",
+          "antallAnsatte": 53
+        },
+        {
+          "navn": "EQUINOR ASA AVD KONTOR FORNEBU",
+          "organisasjonsnummer": "973152416",
+          "antallAnsatte": 2031
+        },
+        {
+          "navn": "EQUINOR ASA AVD KONTOR HARSTAD",
+          "organisasjonsnummer": "973152386",
+          "antallAnsatte": 355
+        }
+      ]
+    },
+    "provenance": [
+      {
+        "field": "workforce.employee_count",
+        "value": 21300,
+        "source_url": "https://data.brreg.no/test",
+        "evidence_snippet": "updated 21300",
+        "retrieved_at": "2026-10-13T12:00:30.182542+00:00",
+        "source_type": "OFFICIAL_REGISTRY",
+        "confidence": 1.0
+      }
+    ],
+    "explanations": {
+      "disambiguation_reasoning": "",
+      "status_envelope_reasoning": "",
+      "executive_summary": ""
+    },
+    "audit_log": [
+      {
+        "field": "workforce.employee_count",
+        "old_value": 21272,
+        "new_value": 21300,
+        "changed_at": "2026-10-13T12:00:30.184012+00:00",
+        "source_url": "https://data.brreg.no/test",
+        "evidence_snippet": "updated 21300"
+      },
+      {
+        "field": "workforce.registration_date",
+        "old_value": "2026-09-14",
+        "new_value": "2026-10-13",
+        "changed_at": "2026-10-13T12:00:30.184012+00:00",
+        "source_url": null,
+        "evidence_snippet": null
+      }
+    ]
+  }
+]

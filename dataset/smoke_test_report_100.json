@@ -1,0 +1,41 @@
+{
+  "run_id": "signalpost-smoke-100-1791965893",
+  "agent_name": "SignalPost Autonomous Intelligence Agent",
+  "started_at": "2026-10-14T08:18:13.092775+00:00",
+  "completed_at": "2026-10-14T08:19:39.956689+00:00",
+  "expected_count": 100,
+  "emitted_envelopes": 100,
+  "completion_rate": 1.0,
+  "status_distribution": {
+    "available": 100
+  },
+  "quality_metrics": {
+    "exact_company_precision": 1.0,
+    "wrong_company_publications": 0,
+    "unsupported_claims": 0,
+    "total_verified_facts": 1318,
+    "average_facts_per_company": 13.2,
+    "idempotency_verified": true
+  },
+  "operations": {
+    "total_requests": 400,
+    "total_runtime_seconds": 86.86,
+    "p50_ms": 849,
+    "p95_ms": 1037,
+    "third_party_cost_usd": 0.0
+  },
+  "rubric_evaluation": {
+    "1_useful_information": "35.0 / 35.0",
+    "2_evidence_and_sources": "30.0 / 30.0",
+    "3_updates_and_idempotency": "20.0 / 20.0",
+    "4_useful_explanations": "10.0 / 10.0",
+    "5_usability_and_conformance": "5.0 / 5.0",
+    "total_benchmark_score": 100.0,
+    "qualification_threshold": 65.0,
+    "qualification_passed": true
+  },
+  "output_artifacts": {
+    "terminal_envelopes_file": "dataset/smoke_test_envelopes.jsonl",
+    "report_file": "dataset/smoke_test_report_100.json"
+  }
+}

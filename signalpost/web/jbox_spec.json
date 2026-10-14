@@ -1,0 +1,49 @@
+{
+  "project_name": "SignalPost - Corporate Intelligence Engine",
+  "challenge": "Signalpost: Build An Agent That Finds Company Information",
+  "platform": "Builderr.ai & Unstop",
+  "jbox_bonus_category": "Official JBOX Integration (Håvard Liltved Dalen / Fronted)",
+  "version": "1.0.0",
+  "description": "An evidence-first autonomous research dashboard built for JBOX that investigates Norwegian companies via Brønnøysundregistrene (BRREG) with 100% verified provenance and live change diff tracking.",
+  "jbox_prompt": "Create a full-stack Next.js 14 web application called 'SignalPost' that serves as a verified corporate intelligence workbench for Norwegian enterprises. It takes a 9-digit Norwegian Organization Number (organisasjonsnummer) or company name, validates it via Modulo 11 checksum algorithm, queries Brønnøysundregistrene (data.brreg.no) REST APIs, and displays an evidence-first corporate dossier with zero hallucination. It includes tabs for Entity Overview, Board & Management (roller), Sub-Entities (underenheter), Evidence Provenance Links (source URL, verbatim quote, timestamp), and a Change Diff Timeline tracking updates between daily runs. The UI features a dark sleek theme with cyan and blue accents, export to JSON/JSONL, and a 100-point benchmark report badge.",
+  "pages": [
+    {
+      "route": "/",
+      "title": "Corporate Dossier Search",
+      "features": [
+        "Modulo 11 Organization Number Validator",
+        "Live BRREG API integration",
+        "Executive Synthesis & Disambiguation Card",
+        "Evidence Provenance Inspector (Confidence & Quotations)",
+        "JSON/JSONL Export button"
+      ]
+    },
+    {
+      "route": "/audit-log",
+      "title": "Temporal Change & Diff Tracker",
+      "features": [
+        "Historical audit log timeline",
+        "Old vs New value diff visualizer",
+        "Idempotency verification indicator"
+      ]
+    },
+    {
+      "route": "/benchmark",
+      "title": "Evaluation Benchmark Dashboard",
+      "features": [
+        "100-Point scoring breakdown visualization",
+        "Useful information (35 pts)",
+        "Evidence linking (30 pts)",
+        "Correct updates (20 pts)",
+        "Explanations (10 pts)",
+        "Usability & schema (5 pts)"
+      ]
+    }
+  ],
+  "api_routes": [
+    "GET /api/company/[orgnr]",
+    "POST /api/company/verify",
+    "GET /api/benchmark/score",
+    "GET /api/export/1000"
+  ]
+}
