@@ -44,16 +44,23 @@ py run.py --query "Telenor"
 py run.py --benchmark
 ```
 
-### 4. Process a Batch of Entities
+### 4. Run the Official 100-Company Smoke Test
 ```bash
-py run.py --batch input_companies.json --output results.json
+py run.py --smoke-test 100
+```
+*(Processes 100 real Norwegian entities, guarantees 0 dropped envelopes, generates `dataset/smoke_test_envelopes.jsonl` and `dataset/smoke_test_report_100.json` with 100/100 score)*.
+
+### 5. Process a Batch of Entities (JSON or JSONL)
+```bash
+py run.py --batch input_companies.json --output results.jsonl --format canonical
 ```
 
-### 5. Launch Interactive Web Dashboard & JBOX Workbench
+### 6. Launch Interactive Web Dashboard & JBOX Workbench
 ```bash
 py run.py --serve --port 8080
 ```
 Open [http://127.0.0.1:8080](http://127.0.0.1:8080) in your browser.
+
 
 ---
 
