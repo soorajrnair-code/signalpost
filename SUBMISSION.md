@@ -6,7 +6,7 @@
 **Candidate Name:** Sooraj R Nair  
 **Contact Email:** `soorajrnair2005@gmail.com`  
 **Official Evaluation Score:** **100.0 / 100.0 Points** *(Qualification threshold: 65.0)*  
-**Commit Hash:** `c58fbf43e477c33c5ea03d91f7e65c7a90ed14f6`  
+**Commit Hash:** `d1c63f8857e223531e7ff1520328f424d84e495c`  
 
 ---
 
@@ -63,8 +63,8 @@ Here is our official submission for the Signalpost Company Research Challenge:
 1. Agent Name: SignalPost Autonomous Norwegian Intelligence Agent
 2. Candidate Name: Sooraj R Nair
 3. Contact Email: soorajrnair2005@gmail.com
-4. Public Repository URL: https://github.com/sooraj-code/signalpost
-5. Exact Commit Hash: c58fbf43e477c33c5ea03d91f7e65c7a90ed14f6
+4. Public Repository URL: https://github.com/soorajrnair-code/signalpost
+5. Exact Commit Hash: d1c63f8857e223531e7ff1520328f424d84e495c
 6. Run Command:
    python run.py --batch {input_file} --output {output_file} --format canonical
 
@@ -125,7 +125,7 @@ On the Unstop portal ([Hackathon Link](https://unstop.com/hackathons/signalpost-
 > 5. **JBOX Bonus Category Readiness:** Includes complete Next.js component specs and UI workbench ready for Håvard Liltved Dalen's JBOX platform.
 
 ### GitHub Repository URL
-`https://github.com/sooraj-code/signalpost`
+`https://github.com/soorajrnair-code/signalpost`
 
 ### Benchmark Score & Results
 - **Overall Score:** 100.0 / 100.0
@@ -150,7 +150,7 @@ Run these 3 commands in your terminal inside `C:\Users\HOME\.gemini\antigravity\
 ### Step 2: Link Remote and Push
 Replace `<YOUR-USERNAME>` with your GitHub username:
 ```bash
-git remote add origin https://github.com/sooraj-code/signalpost.git
+git remote add origin https://github.com/soorajrnair-code/signalpost.git
 git branch -M main
 git push -u origin main
 ```
